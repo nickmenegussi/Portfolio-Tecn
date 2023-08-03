@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.primeira-navegacaao {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 6rem;
+
+    background: #0A1612;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+ul > li {
+    list-style-type: none;
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    color: white;
+}
+main {
+    background-color: #1A2930;
+}
+
+.home-apresentacao {
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+    padding: 100px;
+}
+#texto {
+    text-align: left;
+    max-width: 400px;
+}
+p {
+    color: white;
+}
+h3, h1, h2 {
+    color: #F7CE3E;
+    max-width: 500px;
+    font-size: 40px;
+}
+button {
+    width: 15%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #F7CE3E;
+    border: none;
+}
+.about-me {
+    display: flex;
+    justify-content: center;
+}
+.div-pai {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+    align-items: center;
+    text-align: center;
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    gap: 25px;
+}
+.buttons-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 5%;
+    width: 170%;
+}
+.div-image {
+    display: flex;
+
+}
+
+.portfolio-section {
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+.portfolio-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 400px;
+    width: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-details {
+    padding: 30px;
+    text-align: left;
+}
+
+.project-details h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.project-details p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.project-details a {
+    display: inline-block;
+    font-weight: 600;
+    color: #e74c3c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.project-details a:hover {
+    color: #c0392b;
+}
